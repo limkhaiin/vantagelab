@@ -78,7 +78,7 @@ class GrammarCorrection:
             sentence = []  # Reset the sentence list
         return final_sentences
 
-dataset=['This is there books.', 'I have been their.', 'My house their is pretty.', 'I like there cookies.', 'I like their.','There cookies are good.']
+dataset=['This is there books.', 'I have been their.', 'My house their is pretty.', 'I like there cookies.']
 theirList=["There there There their Their"]
 model = GrammarCorrection()
 model.check(dataset, 0.005, theirList)
